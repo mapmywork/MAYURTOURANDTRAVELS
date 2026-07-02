@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 import { motion } from 'framer-motion';
 import { MapPin, Users, Plane, ShieldCheck, Globe } from 'lucide-react';
+import kashmirImg from '../assets/destinations/kashmir.png';
 
 import 'swiper/css';
 import 'swiper/css/effect-fade';
@@ -30,7 +31,7 @@ const slides = [
   },
   {
     id: 4,
-    image: 'https://images.unsplash.com/photo-1595815771614-ade9d6527653?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80',
+    image: kashmirImg,
     title: 'Kashmir, India',
     subtitle: 'Paradise on Earth'
   }
