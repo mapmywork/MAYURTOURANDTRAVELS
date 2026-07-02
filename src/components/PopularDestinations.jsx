@@ -90,13 +90,10 @@ const PopularDestinations = () => {
               </div>
               
               <div className="p-5 flex flex-col flex-grow">
-                <div className="flex justify-between items-center mb-3">
+                <div className="flex items-center mb-3">
                   <div className="flex items-center text-muted text-sm gap-1">
                     <Clock size={16} />
                     {dest.duration}
-                  </div>
-                  <div className="text-secondary font-bold text-lg">
-                    {dest.price} <span className="text-xs text-muted font-normal">/person</span>
                   </div>
                 </div>
                 

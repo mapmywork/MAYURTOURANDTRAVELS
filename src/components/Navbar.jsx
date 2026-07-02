@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo.jpeg';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -44,9 +45,7 @@ const Navbar = () => {
         
         {/* Logo */}
         <Link to="/" onClick={() => window.scrollTo(0,0)} className="flex items-center gap-2 group">
-          <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-primary to-accent flex items-center justify-center text-white font-heading font-bold text-xl shadow-lg group-hover:scale-105 transition-transform">
-            MT
-          </div>
+          <img src={logo} alt="Mayur Tours Logo" className="h-12 w-12 object-cover rounded-full shadow-sm group-hover:scale-105 transition-transform" />
           <div className={`font-heading font-bold text-2xl tracking-tight ${isScrolled ? 'text-primary' : 'text-white'}`}>
             Mayur Tours
           </div>

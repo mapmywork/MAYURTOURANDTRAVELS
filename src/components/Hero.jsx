@@ -106,7 +106,7 @@ const Hero = () => {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.6 }}
-        className="absolute bottom-16 left-0 w-full z-20 hidden md:block"
+        className="absolute bottom-0 left-0 w-full z-20 hidden md:block"
       >
         <div className="w-full glass-dark border-t border-white/10">
           <div className="container mx-auto px-4 py-5 flex justify-between items-center max-w-7xl gap-4">

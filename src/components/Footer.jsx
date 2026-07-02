@@ -1,5 +1,6 @@
 import React from 'react';
 import { MapPin, Phone, Mail, ArrowRight } from 'lucide-react';
+import logo from '../assets/logo.jpeg';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -16,9 +17,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-primary to-accent flex items-center justify-center text-white font-heading font-bold text-xl shadow-lg">
-                MT
-              </div>
+              <img src={logo} alt="Mayur Tours Logo" className="h-12 w-12 object-cover rounded-full shadow-lg" />
               <div className="font-heading font-bold text-2xl tracking-tight text-white">
                 Mayur Tours
               </div>

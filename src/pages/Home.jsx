@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import QuickEnquiry from '../components/QuickEnquiry';
+import AboutUs from '../components/AboutUs';
 import Services from '../components/Services';
 import PopularDestinations from '../components/PopularDestinations';
 import WomenTours from '../components/WomenTours';
@@ -29,6 +30,7 @@ const Home = () => {
         <main>
           <Hero />
           <QuickEnquiry />
+          <AboutUs />
           <Services />
           <PopularDestinations />
           <WomenTours />

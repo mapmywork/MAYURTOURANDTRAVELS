@@ -13,7 +13,7 @@ const QuickEnquiry = () => {
   };
 
   return (
-    <section className="py-12 bg-white relative z-30 -mt-8 md:-mt-16 rounded-t-3xl shadow-[0_-10px_40px_rgba(0,0,0,0.1)]">
+    <section className="py-12 bg-white relative z-30">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
