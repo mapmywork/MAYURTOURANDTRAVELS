@@ -9,13 +9,14 @@ import ayodhyaImg from '../assets/destinations/ayodhya.png';
 import varanasiImg from '../assets/destinations/varanasi.png';
 import kashmirImg from '../assets/destinations/kashmir.png';
 import nepalImg from '../assets/destinations/nepal.png';
+import rajasthanImg from '../assets/rajasthan.jpeg';
 
 export const destinations = [
   {
     id: 1,
     name: 'Rajasthan',
     type: 'Domestic',
-    image: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: rajasthanImg,
     price: '₹12,999',
     duration: '5N/6D',
     description: 'Explore the land of kings with majestic forts and palaces.'

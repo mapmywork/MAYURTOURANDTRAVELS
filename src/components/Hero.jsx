@@ -4,6 +4,7 @@ import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 import { motion } from 'framer-motion';
 import { MapPin, Users, Plane, ShieldCheck, Globe } from 'lucide-react';
 import kashmirImg from '../assets/destinations/kashmir.png';
+import rajasthanImg from '../assets/rajasthan.jpeg';
 
 import 'swiper/css';
 import 'swiper/css/effect-fade';
@@ -13,7 +14,7 @@ import 'swiper/css/pagination';
 const slides = [
   {
     id: 1,
-    image: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80',
+    image: rajasthanImg,
     title: 'Rajasthan, India',
     subtitle: 'Majestic Forts & Royal Heritage'
   },
@@ -103,7 +104,7 @@ const Hero = () => {
       </div>
 
       {/* Floating Features */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.6 }}
