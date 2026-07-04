@@ -59,7 +59,7 @@ const AboutUs = () => {
               Whether you're looking for a relaxing beach getaway, a thrilling adventure, or an exclusive women-only group tour, our dedicated team of travel experts is here to handle all the details, from flights and visas to accommodations and itineraries. Let us turn your dream vacation into reality.
             </p>
             <div>
-              <a href="#services" className="inline-block px-8 py-4 bg-primary hover:bg-blue-700 text-white rounded-full font-semibold transition-all shadow-[0_4px_20px_rgba(30,64,175,0.4)] hover:shadow-[0_4px_30px_rgba(30,64,175,0.6)] hover:-translate-y-1">
+              <a href="https://wa.me/918559904005" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-primary hover:bg-blue-700 text-white rounded-full font-semibold transition-all shadow-[0_4px_20px_rgba(30,64,175,0.4)] hover:shadow-[0_4px_30px_rgba(30,64,175,0.6)] hover:-translate-y-1">
                 Discover Our Services
               </a>
             </div>

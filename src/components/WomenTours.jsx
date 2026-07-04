@@ -129,7 +129,7 @@ const WomenTours = () => {
               viewport={{ once: true }}
               transition={{ delay: 0.8 }}
             >
-              <a href="#contact" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-rose-500 to-orange-500 hover:from-rose-600 hover:to-orange-600 text-white rounded-full font-semibold transition-all shadow-lg hover:shadow-xl hover:-translate-y-1">
+              <a href="https://wa.me/918559904005" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-rose-500 to-orange-500 hover:from-rose-600 hover:to-orange-600 text-white rounded-full font-semibold transition-all shadow-lg hover:shadow-xl hover:-translate-y-1">
                 Explore Women's Packages
               </a>
             </motion.div>

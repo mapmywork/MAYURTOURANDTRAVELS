@@ -29,13 +29,17 @@ const CTA = () => {
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a 
-              href="#contact"
+              href="https://wa.me/918559904005"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full sm:w-auto bg-white text-primary hover:bg-gray-50 px-8 py-4 rounded-full font-bold transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1 text-lg"
             >
               Plan My Trip
             </a>
             <a 
-              href="tel:+918559904005"
+              href="https://wa.me/918559904005"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-full sm:w-auto flex items-center justify-center gap-2 bg-transparent border-2 border-white text-white hover:bg-white/10 px-8 py-4 rounded-full font-bold transition-all text-lg"
             >
               <PhoneCall size={20} />

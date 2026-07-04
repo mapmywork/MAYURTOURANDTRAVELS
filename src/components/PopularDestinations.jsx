@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { destinations } from '../data/destinations';
-import { MapPin, Clock, ArrowRight } from 'lucide-react';
+import { MapPin, ArrowRight } from 'lucide-react';
 import LazyLoad from 'react-lazy-load';
 
 const PopularDestinations = () => {
@@ -90,18 +90,15 @@ const PopularDestinations = () => {
               </div>
               
               <div className="p-5 flex flex-col flex-grow">
-                <div className="flex items-center mb-3">
-                  <div className="flex items-center text-muted text-sm gap-1">
-                    <Clock size={16} />
-                    {dest.duration}
-                  </div>
-                </div>
+
                 
                 <p className="text-muted text-sm font-body line-clamp-2 mb-6 flex-grow">
                   {dest.description}
                 </p>
                 
-                <button className="flex items-center justify-between w-full mt-auto py-3 px-4 bg-background-light hover:bg-primary hover:text-white rounded-xl text-primary font-medium transition-colors group/btn">
+                <button 
+                  onClick={() => window.open('https://wa.me/918559904005', '_blank')}
+                  className="flex items-center justify-between w-full mt-auto py-3 px-4 bg-background-light hover:bg-primary hover:text-white rounded-xl text-primary font-medium transition-colors group/btn">
                   Explore Now
                   <ArrowRight size={18} className="transform group-hover/btn:translate-x-1 transition-transform" />
                 </button>

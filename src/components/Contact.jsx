@@ -7,8 +7,19 @@ const Contact = () => {
   const { register, handleSubmit, reset } = useForm();
 
   const onSubmit = (data) => {
-    console.log(data);
-    alert('Thank you! Your message has been sent. We will contact you soon.');
+    const phoneNumber = "918559904005";
+    let messageText = `*New Contact Request*\n\n`;
+    messageText += `*Name:* ${data.name}\n`;
+    messageText += `*Phone:* ${data.phone}\n`;
+    if (data.destination) messageText += `*Destination:* ${data.destination}\n`;
+    if (data.date) messageText += `*Travel Date:* ${data.date}\n`;
+    if (data.travelers) messageText += `*Travelers:* ${data.travelers}\n`;
+    if (data.message) messageText += `*Message:* ${data.message}`;
+
+    const encodedMessage = encodeURIComponent(messageText);
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+    
+    window.open(whatsappUrl, '_blank');
     reset();
   };
 

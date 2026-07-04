@@ -70,7 +70,9 @@ const Navbar = () => {
         {/* CTAs */}
         <div className="hidden lg:flex items-center gap-4">
           <a
-            href="tel:+918559904005"
+            href="https://wa.me/918559904005"
+            target="_blank"
+            rel="noopener noreferrer"
             className={`flex items-center gap-2 text-sm font-semibold hover:text-secondary transition-colors ${
               isScrolled ? 'text-text-main' : 'text-white'
             }`}
@@ -79,8 +81,9 @@ const Navbar = () => {
             Call Now
           </a>
           <a
-            href="#contact"
-            onClick={(e) => scrollToSection(e, '#contact')}
+            href="https://wa.me/918559904005"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-primary hover:bg-primary/90 text-white px-6 py-2.5 rounded-full font-medium transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
           >
             Plan My Trip
@@ -122,15 +125,18 @@ const Navbar = () => {
               ))}
               <div className="mt-4 pt-4 border-t flex flex-col gap-3">
                 <a
-                  href="tel:+918559904005"
+                  href="https://wa.me/918559904005"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 text-primary font-semibold py-3 border border-primary/20 rounded-lg"
                 >
                   <Phone size={18} />
                   +91 8559904005
                 </a>
                 <a
-                  href="#contact"
-                  onClick={(e) => scrollToSection(e, '#contact')}
+                  href="https://wa.me/918559904005"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-primary text-white text-center py-3 rounded-lg font-medium shadow-md"
                 >
                   Plan My Trip

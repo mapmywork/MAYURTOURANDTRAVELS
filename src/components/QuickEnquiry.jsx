@@ -7,8 +7,17 @@ const QuickEnquiry = () => {
   const { register, handleSubmit, formState: { errors }, reset } = useForm();
 
   const onSubmit = (data) => {
-    console.log(data);
-    alert('Thank you for your enquiry! Our team will contact you shortly.');
+    const phoneNumber = "918559904005";
+    let messageText = `*Quick Enquiry*\n\n`;
+    messageText += `*Phone:* ${data.phone}\n`;
+    if (data.destination) messageText += `*Destination:* ${data.destination}\n`;
+    if (data.date) messageText += `*Travel Date:* ${data.date}\n`;
+    if (data.travelers) messageText += `*Travelers:* ${data.travelers}`;
+
+    const encodedMessage = encodeURIComponent(messageText);
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+    
+    window.open(whatsappUrl, '_blank');
     reset();
   };
 

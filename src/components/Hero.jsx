@@ -93,10 +93,10 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-5 mt-4">
-            <a href="#packages" className="w-full sm:w-auto px-8 py-4 bg-primary hover:bg-blue-700 text-white rounded-full font-semibold transition-all shadow-[0_4px_20px_rgba(30,64,175,0.4)] hover:shadow-[0_4px_30px_rgba(30,64,175,0.6)] hover:-translate-y-1">
+            <a href="https://wa.me/918559904005" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-4 bg-primary hover:bg-blue-700 text-white rounded-full font-semibold transition-all shadow-[0_4px_20px_rgba(30,64,175,0.4)] hover:shadow-[0_4px_30px_rgba(30,64,175,0.6)] hover:-translate-y-1">
               Explore Packages
             </a>
-            <a href="#contact" className="w-full sm:w-auto px-8 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 hover:border-white/40 text-white rounded-full font-semibold transition-all shadow-lg hover:shadow-[0_4px_20px_rgba(255,255,255,0.15)] hover:-translate-y-1">
+            <a href="https://wa.me/918559904005" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 hover:border-white/40 text-white rounded-full font-semibold transition-all shadow-lg hover:shadow-[0_4px_20px_rgba(255,255,255,0.15)] hover:-translate-y-1">
               Plan My Holiday
             </a>
           </div>
